@@ -8,7 +8,7 @@ Error handling is implemented within the controller logic. If an item is not fou
 **The routes/items.js** file defines the four main API routes that have been tested in Postman.<br>
 **The controllers/itemsController.js** file contains the business logic for each route. It handles request validation results, manages the data store, and formats the responses appropriately. Each function in this file corresponds to an HTTP method defined in the routes file. <br>
 **The data/store.js** file holds an in-memory array that serves as a temporary item database. This allows the application to simulate CRUD operations without connecting to a real database.<br>
-**The validators/itemValidator.js **file defines validation rules for incoming requests. It exports a middleware array that checks if the name field is not empty and if the description field has a minimum length of three characters. These rules are used in the route that creates new items.<br>
+**The validators/itemValidator.js** file defines validation rules for incoming requests. It exports a middleware array that checks if the name field is not empty and if the description field has a minimum length of three characters. These rules are used in the route that creates new items.<br>
 
 #Commands used in Postman
 - `POST /api/items` – Add item  
