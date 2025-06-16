@@ -9,8 +9,8 @@
 # ─ validators/ itemValidator.js - validation rules for the input
 
 # This has been tested in Postman
-- `POST /api/items` – Add a new item  
-  Body: `{ "name": "Item", "description": "Some text" }`
-- `GET /api/items` – Get all items
-- `GET /api/items/:id` – Get a single item by ID
-- `DELETE /api/items/:id` – Delete an item by ID
+- `POST /api/items` – Add item  
+  Body: `{ "name": "Item", "description": "text" }`
+- `GET /api/items` – Get items
+- `GET /api/items/:id` – Get item by ID
+- `DELETE /api/items/:id` – Delete item by ID
